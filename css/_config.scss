@@ -29,5 +29,6 @@ $base-border-color: #ddd;
 $header-border: 2px solid $base-accent-color;
 $heading-border: 2px solid $base-heading-font-color;
 $section-border: 2px solid $base-font-color;
+$table-border: 1px solid lighten($base-background-color, 5);
 
 $max-width: 68em;

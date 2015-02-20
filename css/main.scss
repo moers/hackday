@@ -204,6 +204,33 @@ header {
 				@include span-columns(4);
 			}
 		}
+
+		table {
+			width: 100%;
+			tr {
+				transition: all .4s ease-in;
+			}
+			tr:hover {
+				background-color: lighten($base-background-color, 3);
+			}
+			tr:not(:first-child) {
+				border-top: $table-border;
+			}
+			th[colspan="3"] {
+				background-color: lighten($base-background-color, 5);
+				tr {
+					border: none;
+				}
+			}
+			th {
+				white-space: nowrap;
+				padding: 1em 0;
+			}
+			td {
+				text-align: center;
+				padding: 1em 0;
+			}
+		}
 	}
 
 	.photo-grid {
