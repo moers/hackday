@@ -204,20 +204,31 @@ header {
 				@include span-columns(4);
 			}
 		}
+		
+		.logo {
+			background-color: #fff;
+			padding: 4em 6em;
+			p {
+				margin: 0;
+			}
+			a {
+				border-bottom: none;
+			}
+		}
 
 		table {
 			width: 100%;
 			tr {
-				transition: all .4s ease-in;
+				transition: all .3s ease-in;
 			}
 			tr:hover {
-				background-color: lighten($base-background-color, 3);
+				background-color: lighten($base-background-color, 4);
 			}
 			tr:not(:first-child) {
 				border-top: $table-border;
 			}
 			th[colspan="3"] {
-				background-color: lighten($base-background-color, 5);
+				background-color: lighten($base-background-color, 6);
 				tr {
 					border: none;
 				}

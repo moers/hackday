@@ -473,16 +473,23 @@ header {
           width: 100%; }
           #content section.row .col-full:last-child {
             margin-right: 0; } }
+    #content section.row .logo {
+      background-color: #fff;
+      padding: 4em 6em; }
+      #content section.row .logo p {
+        margin: 0; }
+      #content section.row .logo a {
+        border-bottom: none; }
     #content section.row table {
       width: 100%; }
       #content section.row table tr {
-        transition: all .4s ease-in; }
+        transition: all .3s ease-in; }
       #content section.row table tr:hover {
-        background-color: #211e22; }
+        background-color: #232125; }
       #content section.row table tr:not(:first-child) {
         border-top: 1px solid #262328; }
       #content section.row table th[colspan="3"] {
-        background-color: #262328; }
+        background-color: #29252a; }
         #content section.row table th[colspan="3"] tr {
           border: none; }
       #content section.row table th {
