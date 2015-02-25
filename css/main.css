@@ -475,7 +475,8 @@ header {
             margin-right: 0; } }
     #content section.row .logo {
       background-color: #fff;
-      padding: 4em 6em; }
+      padding: 4em 6em;
+      text-align: center; }
       #content section.row .logo p {
         margin: 0; }
       #content section.row .logo a {
