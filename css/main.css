@@ -474,9 +474,24 @@ header {
           #content section.row .col-full:last-child {
             margin-right: 0; } }
     #content section.row .logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
       background-color: #fff;
-      padding: 4em 6em;
+      padding: 1em 2em;
+      margin-bottom: 2em;
       text-align: center; }
+      #content section.row .logo:last-child {
+        margin-right: 0; }
+      @media screen and (max-width: 780px) {
+        #content section.row .logo {
+          float: left;
+          display: block;
+          margin-right: 4.82916%;
+          width: 100%; }
+          #content section.row .logo:last-child {
+            margin-right: 0; } }
       #content section.row .logo p {
         margin: 0; }
       #content section.row .logo a {
@@ -554,5 +569,17 @@ header {
   -o-transform: none;
   transform: none;
   opacity: 1; }
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */ }
 
 /*# sourceMappingURL=main.css.map */
