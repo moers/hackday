@@ -43,7 +43,6 @@ header {
 		}
 
 		#logo {
-
 			padding-top: 0.5em;
 			font-weight: bold;
 			font-size: 48px;
@@ -56,6 +55,26 @@ header {
 			color: $base-accent-color;
 			font-weight: bold;
 			font-size: 18px;
+		}
+	}
+
+	#hashtag {
+		@include outer-container;
+		position: block;
+		width: 100%;
+		z-index: 999;
+
+		p {
+			float: right;
+			padding-top: 0.5em;
+			font-weight: bold;
+			font-size: 48px;
+			letter-spacing: -0.05em;
+			transition: 0.4s;
+			text-shadow: 0 0 4px $base-background-color;
+		}
+		a {
+			color: $base-font-color;
 		}
 	}
 

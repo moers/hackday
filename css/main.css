@@ -319,6 +319,27 @@ header {
       color: #fab000;
       font-weight: bold;
       font-size: 18px; }
+  header #hashtag {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    position: block;
+    width: 100%;
+    z-index: 999; }
+    header #hashtag::after {
+      clear: both;
+      content: "";
+      display: table; }
+    header #hashtag p {
+      float: right;
+      padding-top: 0.5em;
+      font-weight: bold;
+      font-size: 48px;
+      letter-spacing: -0.05em;
+      transition: 0.4s;
+      text-shadow: 0 0 4px #19171a; }
+    header #hashtag a {
+      color: #ced9e0; }
   header a {
     color: #fab000;
     text-decoration: none;
