@@ -1,330 +1,633 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<link rel="shortcut icon" href="img/favicon.ico">
-	<link rel="stylesheet" href="css/vendor/fluidbox.min.css">
-	<link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="#ODDMO16, Open Data, Hackathon, Hackday, Moers, Niederrhein">
+    <meta name="description" content="Am 9. und 10. April 2016 veranstaltet die Stadt Moers zum zweiten Mal gemeinsam mit der Bertelsmann Stiftung einen zweitägigen Open Data-Hackday in Moers. Das Tolle: Jeder kann mitmachen!">
+    <meta name="robots" content="index,follow">
 
-	<title>Hackday Niederrhein</title>
+    <meta property="og:title" content="Zweiter Hackday Niederrhein im April in Moers">
+    <meta property="og:url" content="http://hackday.moers.de/"/>
+    <meta property="og:description" content="Am 9. und 10. April 2016 veranstaltet die Stadt Moers zum zweiten Mal gemeinsam mit der Bertelsmann Stiftung einen zweitägigen Open Data-Hackday in Moers. Das Tolle: Jeder kann mitmachen!">
+    <meta property="og:image" content="http://hackday.moers.de/img/logo-hackday.jpg">
 
+    <title>Hackday Niederrhein 2016 - #ODDMO16</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-<body>
 
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo-hackday-niederrhein.svg" alt="Hackday Niederrhein" class="logo"></a>
+            </div>
 
-	<header>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="hackday-2015.html" target="_blank">2015</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#wann-und-wo">Wann und wo</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Programm</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#workshop-rocketgirls">Workshop für Mädchen / Frauen</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#organizer">Veranstalter</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-		<div id="logo-container">
-			<div id="logo"><a href="/">Hackday Niederrhein</a></div>
-			<div id="subtitle">Code for Niederrhein</div>
-		</div>
-		<div id="hashtag">
-			<p>
-				<a href="https://twitter.com/hashtag/ODDMO16" title="Hashtag zur Nutzung in Sozialen Medien">#ODDMO16</a>
-			</p>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Hackday Niederrhein</h1>
+                <h2>Hey, wir machen was mit Daten</h2>
+                <div class="hashtag">
+                    <h3><a href="https://twitter.com/hashtag/ODDMO16" target="_blank">#ODDMO16</a></h3>
+                </div>
+                <hr>
+                <p>Am 9. und 10. April 2016 veranstaltet die Stadt Moers zum zweiten Mal gemeinsam mit der Bertelsmann Stiftung einen zweitägigen Open Data-Hackday in Moers. Das Tolle: Jeder kann mitmachen!</p>
+                <a href="#wann-und-wo" class="btn btn-primary btn-xl page-scroll">Erfahre mehr</a>
+            </div>
+        </div>
+    </header>
 
-		</div>
+    <section class="bg-dark" id="wann-und-wo">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-heading text-center">Jetzt geht's in die 2. Runde</h2>
+                    <hr class="light">
+                    <div class="col-lg-6">
+                        <img src="img/hacking.jpg" style="width: 100%; margin-top: 26px;" />
+                        <div class="image-licence">
+                            Foto: <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC BY 2.0</a>
+                            <a href="https://www.flickr.com/photos/ter-burg/8812567121/">Sebastiaan ter Burg auf Flickr</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Wann</h2>
+                        <div class="meeting-info">
+                            <strong>am 9. und 10. April 2016</strong><br /><br />
+                            Sa.: 10 - 20 Uhr<br />
+                            So.: 10 - 17 Uhr<br />
+                            </div>
+                        <h2>Wo</h2>
+                        <div class="meeting-info">
+                            <strong>Rathaus in Moers</strong><br /><br />
+                            Rathausplatz 1, 47441 Moers<br />
+                            Ratssaal sowie Besprechungsräume Seelow und Knowsley<br />
+                            Haltestelle "Rathaus", erreichbar über die Linien SB 30, 912, 913, 929 u. Parkplatz Mühlenstraße
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="talk-odd">
+                        <p><a href="https://www.moers.de/de/veranstaltungen/talk-open-data-challenge-wirtschaft-und-offene-daten/" target="_blank">Zusatz am 8. April 2016: Talk “Open Data Challenge - Wirtschaft und offene Daten”</a></p>
+                    </div>
+                    <div class="bg-primary stoerer" id="mitmachen">
+                        <a href="http://unserpad.de/p/Hackday_Moers" target="_blank">Du möchtest mitmachen? Dann trage dich bitte in unserem Organisationspad ein</a>
+                        <div style="font-size: 12px;">
+                            (Während der Veranstaltung sichern wir die Verpflegung. Wenn du dabei besondere Wünsche hast (vegan, glutenfrei o.a.), schreibe uns bitte eine <a href="mailto:offenedaten@moers.de">E-Mail</a>)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</header>
+    <section id="program">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Programm / Ablauf?</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="head-row">
+                        Samstag, 9. April 2016
+                    </div>
+                    <div class="table">
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                10:00 h
+                            </div>
+                            <div class="table-cell">
+                                Begrüßung und Opening
+                            </div>
+                            <div class="table-cell">
+                            </div>
+                        </div>
 
-	<div id="content">
+                        <div class="table-row">
+                            <div class="table-cell th">
+                                10:15 h
+                            </div>
+                            <div class="table-cell">
+                                Impuls 1:<br />Datenjournalismus
+                            </div>
+                            <div class="table-cell">
+                                <a href="http://codefor.de/niederrhein" target="_blank"><img src="img/odc-logo-small1.png" alt="" style="max-width: 300px;"></a><br />
+                                <strong>Martin Virtel von Open Data City</strong><br /><br />Neben der Tätigkeit als Datenjournalist bei OpenDataCity und Entwicklungsredakteur im dpa newslab arbeitet er als Dozent für Multimedia-Journalismus an der Uni Barcelona und berät digitale Medienprojekte. Zuvor war Virtel Teamleiter Entwicklung & Projekte bei der Financial Times Deutschland und Entwicklungsredakteur bei Zeit Online.
+                            </div>
+                        </div>
 
-		<section class="intro">
-			<h1>Hey, <span class="nl"></span>wir machen was mit Daten.</h1>
-			
-			
-			
-		</section>
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                10:45 h
+                            </div>
+                            <div class="table-cell">
+                                Impuls 2:<br />Was macht der Niederrhein mit Daten? Das Code for Niederrhein Lab
+                            </div>
+                            <div class="table-cell">
+                                <a href="http://codefor.de/niederrhein" target="_blank"><img src="img/logo-long-code-for-niederrhein.svg" alt="" style="max-width: 300px;"></a><br />
+                                <strong>Timo Jeske aus Moers</strong><br /><br />
+                                Lead des Code for Niederrhein Lab
+                            </div>
+                        </div>
 
+                        <div class="table-row">
+                            <div class="table-cell th">
+                                11:15 h
+                            </div>
+                            <div class="table-cell">
+                                Impuls 3:<br />Thema folgt
+                            </div>
+                            <div class="table-cell">
+                                N.N. -> da lassen wir uns noch etwas Schönes einfallen :)
+                            </div>
+                        </div>
 
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                11:30 h
+                            </div>
+                            <div class="table-cell">
+                                Daten downloaden = Schwerpunkte der Daten sind bereits auf der Website diskutiert und im Etherpad erkennbar
+                            </div>
+                            <div class="table-cell">
 
-<section class="row">
-			<div class="col-full" id="hackday">
-				<h2>Jetzt geht's in die 2. Runde!</h2>
-				<h3>Der Termin für den Hackday 2016 steht:</h3>
-				<p>
-				Am <b>9. und 10. April 2016</b> veranstaltet die <a href="http://moers.de">Stadt Moers</a> zum zweiten Mal gemeinsam mit der <a href="https://www.bertelsmann-stiftung.de">Bertelsmann Stiftung</a> einen zweitägigen Open Data-Hackday in Moers. Das Tolle: <a href="http://unserpad.de/p/Hackday_Moers" target="_blank">Jeder kann mitmachen!</a>
-				<br><br>
-				
-					        Rathaus Moers<br>
-						Rathausplatz 1, 47441 Moers<br>
-						Ratssaal sowie Besprechungsräume Seelow und Knowsley<br>
-						<small>Haltestelle "Rathaus", erreichbar über die Linien SB 30, 912, 913, 929</small>
-						<small> u. Parkplatz Mühlenstraße</small>
-				<br><a href="http://hackday.moers.de/conduct.html">Verhaltensregeln / Code of Conduct </a><br>	
-				<h2>Weitere Infos folgen in Kürze!</h2>
+                            </div>
+                        </div>
 
-					
-				</p>
-			</div>
-		</section>
+                        <div class="table-row">
+                            <div class="table-cell th">
+                                12:00 h
+                            </div>
+                            <div class="table-cell">
+                                Hacking
+                            </div>
+                            <div class="table-cell">
 
-	
-		<section class="row">
-			<div class="col-full" id="hackday">
-				<h2>Was ist ein Hackday</h2>
-				<p>
-					Hacking hat spätestens seit den 1980er Jahren mehrere Bedeutungen. Der Ursprung geht auf die Tätigkeit von Tüftlern zurück, die, wie <a href="http://de.wikipedia.org/wiki/Wau_Holland" target="_blank">Wau Holland</a> einst sagte, versuchen, einen Weg zu finden, mit einer Kaffeemaschine einen Toast zuzubereiten. Hacker versuchen, die Grenzen des Machbaren zu finden. 
-				</p>
-				<p>
-					Auf einem Hackday kommen also verschiedene Hacker zusammen, ganz egal ob altgedienter IT-Hacker oder Neuling und Alltags-Hacker. Jeder, der kreativ eine Lösung finden möchte, ist eingeladen, gemeinsam mit allen anderen Teilnehmern eine Lösung für eine Problemstellung zu erarbeiten. Diese <i>Problemstellung</i> wird von den Teilnehmern selbst mitgebracht und gemeinsam versucht zu lösen. Ziel ist es dabei, einen gesellschaftlichen Nutzen zu erbringen.
-				</p>
-				<p>
-					Willkommen sind auch Interessierte, die einfach nur mehr über das Thema Open Data erfahren möchten.
-				</p>
-				
-			</div>
-		</section>
+                            </div>
+                        </div>
 
-		<section class="row">
-			<div class="col-full" id="opendata">
-				<h2>Open Data?</h2>
-				<p>
-				Bei <i>offenen Daten</i> geht es im Kern um die Bereitstellung von Daten des öffentlichen Sektors, die von Politik und Verwaltung im Interesse der Allgemeinheit mit einer Nutzungslizenz zur weiteren freien Nutzung, zur Weiterverbreitung und zur Weiterverwendung zugänglich gemacht werden. Nutzen können diese Privatpersonen, Institutionen und Unternehmen. Ausgenommen hiervon sind personenbezogene Daten sowie Daten, die anderweitig schutzwürdig sind. Grob gesagt öffnen die Verwaltungen dazu ihre Aktenschränke und Schubladen und stellen der Öffentlichkeit Daten wie etwa Haushaltsdaten, Verkehrsdaten, Geodaten etc. zur Verfügung. Bisher aber stehen diese Daten kaum zur Verfügung, schon gar nicht in mensch- und maschinenlesbarer Art – ein neuer Weg, wenn Verwaltungen Daten jetzt mehr und mehr öffnen. Die Idee dabei ist, dass offene Daten Transparenz und auch Möglichkeiten zur Zusammenarbeit mit der Zivilgesellschaft fördern. Übrigens ist das nicht allein ein kommunaler Weg, die Öffnung findet auch auf Bundes- und Landesebenen statt.
-				</p>
-				<p>
-					Die Stadt Moers und andere Kommunen veröffentlichen Daten auf <a href="http://www.offfenesdatenportal.de" target="_blank">www.offenesdatenportal.de</a>
-				</p>
-				<p>
-					2015 war auch das <a href="https://open.nrw/de/startseite">Open.NRW-Portal des Landes</a> gestartet, in dem viele interessante Daten bereitgestellt werden, mit denen man natürlich auch bei unserem Hackday arbeiten konnte. 
-				</p>
-			</div>
-		</section>
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                13:00 h
+                            </div>
+                            <div class="table-cell">
+                                Brunch
+                            </div>
+                            <div class="table-cell">
 
-		<section class="row">
-			<div class="col-full" id="hackday">
-				<h2>Das wurde über den Hackday 2015 geschrieben</h2>
-				<h3>Presse</h3>
-				<p>
-				<div class="responsive-video">
-				<iframe src="https://www.youtube.com/embed/ZrB2btk5j-E" frameborder="0" allowfullscreen></iframe>
-				</div><br>
-					
-					Rheinische Post: <a href="http://www.rp-online.de/nrw/staedte/moers/offene-daten-fuer-kreative-cyberfreaks-aid-1.4962782" target="_blank">Offene Daten für kreative Cyberfreaks</a> 
-				</p>
-				<h3>Blogs</h3>
-				<p>
-					Anke Knopp, Blickpunkt Gütersloh: <a href="http://blickpunkt-gt.blogspot.de/2015/03/open-data-feuerwehr-und-apps.html">Open Data, Feuerwehr und Apps</a> <br>
-					Anke Knopp, blog.wegweiser-kommune.de: <a href="http://blog.wegweiser-kommune.de/demographischer-wandel/hackday-erste-ergebnisse">Hackday - erste Ergbnisse</a> <br>
-					Kirsten Wohlfahrt, Government 2.0 Netzwerk Deutschland e.V.: <a href="http://www.gov20.de/hackday-moers-wenn-im-rathaus-open-data-enthusiasten-das-sagen-haben/">Hackday Moers: Wenn im Rathaus Open Data-Enthusiasten das Sagen haben</a> <br>
-				</p>
-				<h3>Interviews</h3>
-				<p>
-				<a href="http://www.gov20.de/hackday-moers-wenn-im-rathaus-open-data-enthusiasten-das-sagen-haben/">Hackday in Moers: Party der Datenjongleure</a>. Interview mit Claus Arndt, veröffentlicht auf <a href="https://open.nrw">Open.NRW</a>.<br>
-				<a href="http://www.habbel.de/wordpress/?p=1679">Stadt Moers öffnet Aktenschränke – erster Hackday zeigt den Weg in die Bürgergesellschaft</a>. Interview mit Claus Arndt, veröffentlicht auf 
-<a href="http://www.habbel.de/wordpress/">Habbel Blog</a>.
-					
-				</p>
-			</div>
-		</section>
-	
-		<section class="row">
-			<div class="col-full">
-				<h2>Ablauf vom letzen Hackday</h2>
-				
-				<table>
-					<tr>
-						<th>Wann</th>
-						<th colspan="2">Altes Programm</th>
-					</tr>
-					<tr>
-						<th colspan="3">Samstag, 21. März 2015 </th>
-					</tr>
-					<tr>
-						<th>10:00 Uhr</th>
-						<td>
-							Begrüßung und Opening
-						</td>
-						<td>
-						Bertelsmann Stiftung, Dr. Kirsten Witte (Programm LebensWerte Kommune)
-						</td>
-					</tr>
-					<tr>
-						<th>10:15 Uhr</th>
-						<td>Impuls: Code for Germany – Offene Daten – was tun mit Daten?</td>
-						<td>Drew Wilson, Exchange Fellow von Code for America</td>
-					</tr>
-					<tr>
-						<th>10:45 Uhr</th>
-						<td>Impuls: Was mache ich mit Daten? Erfahrungsbericht - auch aus dem Code for Berlin Lab</td>
-						<td><a href="http://thomas.tursics.de/">Thomas Tursics</a>, Entwickler und Opendathusiast, Berlin</td>
-					</tr>
-					<tr>
-						<th>11:15 Uhr</th>
-						<td>Praxisbeispiel: <a href="https://politik-bei-uns.de/">politik-bei-uns.de</a></td>
-						<td>Ernesto Ruge. <a href="http://openruhr.de/">OpenRuhr</a></td>
-					</tr>
-					<tr>
-						<th>11:30 Uhr</th>
-						<td>Daten downloaden = Schwerpunkte der Daten sind bereits auf der Website diskutiert und im Etherpad erkennbar</td>
-						<td>Schwerpunkte: wie reagiert eine Stadt auf die Alterung der Bevölkerung? Was sagen uns die Haushaltsdaten?</td>
-					</tr>
-					<tr>
-						<th>12:00 Uhr</th>
-						<td>Hacking</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>13:00 Uhr</th>
-						<td>Lunch</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>im Anschluss</th>
-						<td>Hacking. <br>
-						Um 14 Uhr wird auch Bürgermeister Christoph Fleischhauer zur Veranstaltung stoßen und die Gäste begrüßen.</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>18:00 Uhr</th>
-						<td>lockeres Gettogether mit Getränken und Abendessen</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th colspan="3">Sonntag, 22. März 2015</th>
-					</tr>
-					<tr>
-						<th>10:00 Uhr</th>
-						<td>Hacking Tag 2</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>13:00 Uhr</th>
-						<td>Lunch</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>im Anschluss</th>
-						<td>Hacking Tag 2</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>15:00 Uhr</th>
-						<td>Vorstellung der Ergebnisse</td>
-						<td></td>
-					</tr>
-					<tr>
-						<th>16:00 Uhr</th>
-						<td>Abschluss und Abschied</td>
-						<td></td>
-					</tr>
-				</table>
-			</div>
-		</section>
+                            </div>
+                        </div>
 
-		<section class="row">
-			<div class="photo-grid">
-				<div class="col-2">
-					<a href="img/8812567121_8dd8b62fc6_k.jpg" rel="lightbox"><img src="img/8812567121_8dd8b62fc6_k.jpg" alt="Hackaton"></a>	
-					<small>Foto: <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC BY 2.0</a> <a href="https://www.flickr.com/photos/ter-burg/8812567121/" target="_blank"> Sebastiaan ter Burg auf Flickr</a></small>	
-				</div>
-				<div class="col-2">
-					<a href="img/karte.jpg" rel="lightbox"><img src="img/karte.jpg" alt="Landkarte"></a>
-					<small class="col-2">Karte: <a href="http://www.openstreetmap.org/?mlat=51.45338&mlon=6.62638#map=17/51.45338/6.62638&layers=H" target="_blank">OpenStreetMap-Mitwirkende</a></small>
-				</div>
-				<div class="col-1">
-					<a href="img/8287346116_8108673e89_o.jpg" rel="lightbox">
-						<img src="img/8287346116_8108673e89_o.jpg" alt="Rathaus Moers">
-					</a>
-					<small>Foto: <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/" target="_blank">CC BY-NC-ND 2.0</a> <a href="https://www.flickr.com/photos/stadtmoers/8287346116/" target="_blank">Stadt Moers auf Flickr</a></small>
-				</div>
-			</div>
-		</section>
+                        <div class="table-row">
+                            <div class="table-cell th">
+                                danach
+                            </div>
+                            <div class="table-cell">
+                                Hacking
+                            </div>
+                            <div class="table-cell">
+                                Um 14 Uhr wird auch Bürgermeister Christoph Fleischhauer zur Veranstaltung stoßen und die Gäste begrüßen.
+                            </div>
+                        </div>
 
-		<section class="row">
-			<div class="col-full" id="anmelden">
-				<h2>Anmelden</h2>
-				<p>
-					Du möchtest mitmachen? Dann trage dich bitte in unserem <a href="http://unserpad.de/p/Hackday_Moers" target="_blank">Organisationspad</a> ein.
-				</p>
-				<p>
-					<small>Während der Veranstaltung sichern wir die Verpflegung. Wenn du dabei besondere Wünsche hast (vegan, glutenfrei o.a.), schreibe uns bitte eine <a href="mailto:offenedaten@moers.de">E-Mail.</a></small>
-				</p>
-			</div>
-		</section>
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                18:00 h<br />-<br />20:00 h
+                            </div>
+                            <div class="table-cell">
+                                lockeres Get-together mit Getränken und Abendessen.<br />Wer mag, kann natürlich dabei bis 20 Uhr weiterhacken.
+                            </div>
+                            <div class="table-cell">
 
+                            </div>
+                        </div>
+                    </DIV>
 
-		<section class="row">
-			<div class="col-full">
-				<h2>Der Hackday wird veranstaltet von</h2>
-			</div>
-			<div class="col no-border logo">
-				<a href="http://moers.de/">
-					<img src="img/wappen-stadt-moers_rgb.png" alt="Logo der Stadt Moers" target="_blank">
-				</a>
-			</div>
-			<div class="col no-border logo">
-				<a href="https://www.bertelsmann-stiftung.de/">
-					<img src="img/logo_bertelsmann.png" alt="Logo der Bertelsmann Stiftung" target="_blank">
-				</a>
-			</div>
-			<div class="col no-border logo">
-				<a href="https://www.wegweiser-kommune.de">
-					<img src="img/logo-wegweiser-kommune.png" alt="Logo Wegweiser Kommune" target="_blank">
-				</a>
-			</div>
-		</section>
+                    <div class="head-row">
+                        Sonntag, 10. April 2016
+                    </div>
+                    <div class="table">
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                10:00 h
+                            </div>
+                            <div class="table-cell">
+                                Hacking Tag 2
+                            </div>
+                        </div>
 
+                        <div class="table-row">
+                            <div class="table-cell th">
+                                13:00 h
+                            </div>
+                            <div class="table-cell">
+                                Lunch
+                            </div>
+                        </div>
 
-		<section class="row">
-			<div class="col">
-				<h2>Kontakt</h2>
-				<p>
-					Haben wir noch Fragen offen gelassen? Kein Problem, schreibe uns eine <a href="mailto:offenedaten@moers.de">E-Mail</a>.
-				</p>
-			</div>
-			<div class="col">
-				<h2>Follow us</h2>
-				<p>
-					Du findest uns auf <a href="http://twitter.com/OpenDataMoers" target="_blank">Twitter</a> und <a href="https://de-de.facebook.com/stadtmoers">Facebook</a>.
-				</p>
-			</div>
-		</section>
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                danach
+                            </div>
+                            <div class="table-cell">
+                                Hacking Tag 2
+                            </div>
+                        </div>
 
-		<section class="row">
-			<small><a href="http://hackday.moers.de/conduct.html">Verhaltensregeln</a> </small> <small><a href="https://www.moers.de/C12571D10045491B/html/24D2E130103FC447C12572C2003FC528?opendocument">Impressum</a></small>
-		</section>
+                        <div class="table-row">
+                            <div class="table-cell th">
+                                16:00 h
+                            </div>
+                            <div class="table-cell">
+                                Vorstellung der Ergebnisse
+                            </div>
+                        </div>
 
+                        <div class="table-row row-2">
+                            <div class="table-cell th">
+                                17:00 h
+                            </div>
+                            <div class="table-cell">
+                                Abschluss und Abschied
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</div>
+    <section class="no-padding" id="sample-apps">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://wetter.moe/" target="_blank" class="portfolio-box">
+                        <img src="img/apps/moerser-wetter.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Open Data Anwendung
+                                </div>
+                                <div class="project-name">
+                                    Moerser Wetter
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="https://edu.openruhr.de/" target="_blank" class="portfolio-box">
+                        <img src="img/apps/wahlen.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Open Data Anwendung
+                                </div>
+                                <div class="project-name">
+                                    Open Data Wahlergebnisplattform
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="http://wartezeit.tursics.de/" target="_blank" class="portfolio-box">
+                        <img src="img/apps/wartezeiten-moers.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Open Data Anwendung
+                                </div>
+                                <div class="project-name">
+                                    Wartezeiten im Bürgerservice Moers
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script>
-	if (!window.jQuery) {
-	    document.write('<script src="js/vendor/jquery.1.11.min.js"><\/script>');
-	}
-	</script>
+    <section id="workshop-rocketgirls" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Code Workshop für Frauen und Schülerinnen: Rocket Girls</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class= image-center>
+                        <img src="img/rocket-girls-workshop.jpg" alt="Workshop Rocket Girls" class="image-responsive" />
+                    </div>
+                    <div class="margin-top">
+                        <p>
+                            Wir wollen unsere Begeisterung für offene Daten mit Euch teilen. In zwei mal vier Stunden geben wir einen ersten Einblick: Was sind offene Daten und was kann Frau damit anstellen? Danach begleiten wir Euch zum OpenData-Hackday in Moers.
+                        </p>
+                        <h2>
+                            Wer kann mitmachen?
+                        </h2>
+                        <p>
+                            Für den Workshop braucht Ihr keine Vorkenntnisse und Ihr müsst auch nicht 'gut in Mathe' sein.<br />
+                            Eingeladen sind alle interessierten Frauen und Mädchen ab Klasse 10. Jungs können auch mitmachen, sie müssen aber von einem interessierten Mädchen begleitet werden. Wenn die Plätze knapp werden, haben Frauen Vorrang.
+                            <br /><br />
+                            Wer hat, bringt bitte einen Laptop mit. Wer keinen hat, schreibt das bitte in die Anmeldung mit rein, sodass wir uns um Leih-Geräte kümmern können.
+                            <br /><br />
+                            Ort: Rathaus Moers, Raum 2.067 Besprechungsraum "Ramla"
+                        </p>
+                    </div>
+                    <div class="margin-top">
+                        <h2>
+                            Geplanter Ablauf:
+                        </h2>
 
-	<script src="js/vendor/jquery.fluidbox.min.js"></script>
-	<script src="js/main.js"></script>
-<!-- BEGIN etracker Tracklet 3.0 -->
-<script type="text/javascript">document.write(String.fromCharCode(60)+"script type=\"text/javascript\" src=\"http"+("https:"==document.location.protocol?"s":"")+"://code.etracker.com/t.js?et=DXEvgg\">"+String.fromCharCode(60)+"/script>");</script>
+                        <div class="head-row">
+                            Freitag, 08. April 2016
+                        </div>
+                        <div class="table">
+                            <div class="table-row">
+                                <div class="table-cell th">
+                                    17:00 h<br />-<br />21:00 h
+                                </div>
+                                <div class="table-cell">
+                                    - Was sind offene Daten<br />
+                                    - Einstieg: Command Line<br />
+                                    - Erste Datenschritte in Python mit Jupyter Notebook<br />
+                                    - First News App mit Python und Flask
+                                </div>
+                                <div class="table-cell">
+                                    mit <a href="#workshop-rocket-girls-leader">@pen1710: Patricia Ennenbach</a>
+                                </div>
+                            </div>
+                        </div>
 
-<!-- etracker PARAMETER 3.0 -->
-<script type="text/javascript">
-    var et_pagename     = "Hackday Niederrhein";
-    var et_areas        = "Hackday";
-</script>
-<!-- etracker PARAMETER END -->
+                        <div class="head-row">
+                            Samstag, 09. April 2016
+                        </div>
+                        <div class="table">
+                            <div class="table-row">
+                                <div class="table-cell th">
+                                    19:00 h<br />-<br />13:00 h
+                                </div>
+                                <div class="table-cell">
+                                    - R<br />
+                                    - Your first choropleth map with R
+                                </div>
+                                <div class="table-cell">
+                                    mit <a href="#workshop-rocket-girls-leader">@datentaeterin: Marie-Louise Timcke</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-primary stoerer">
+                        <a href="mailto:offenedaten@moers.de" target="_blank">Du möchtest mitmachen? Dann schicke uns eine Mail an  offenedaten@moers.de</a>
+                    </div>
+                    <div class="margin-top" id="workshop-rocket-girls-leader">
+                        <h2>Wer leitet den Workshop?</h2>
+                        <div class="workshop-leader" id="ennenbach">
+                            <div class="workshop-leader-image">
+                                <img src="img/ennenbach.jpg" alt="Ennenbach" class="image-responsive">
+                            </div>
+                            <div class="workshop-leader-description">
+                                <strong>Patricia Ennenbach</strong><br /><br />
+                                Ich arbeite als freie Journalistin beim WDR in Köln. Seit einigen Jahren interessiere ich mich immer mehr für Technik,
+                                Programmieren und Daten - obwohl ich das früher nie von mir gedacht hätte. Seit ca. 1 Jahr bin ich Co-Lead beim Open Knowledge Lab
+                                in Köln. Dort treffen sich alle zwei Wochen ProgrammiererInnen, DesignerInnen, JournalistInnen und andere Interessierte und überlegen,
+                                wie man aus offenen Daten der Stadt Köln nützliche Anwendungen bauen kann. <br />
+                                So ist zum Beispiel eine Spielplatz-Karte entstanden, ein Baustellen-Warner oder auch ein Programm, das Hunde und Katzen, die in Kölner Tierheimen warten, bei Twitter postet.
+                                <br /><br />
+                                Seit Anfang des Jahres bin ich Daten-Fellow bei Correctiv und lerne mit anderen Journalisten aus NRW gemeinsam, Daten zu nutzen, um gute,
+                                wichtige Geschichten über NRW zu erzählen. Und ich gebe meine Begeisterung für Daten und fürs Programmieren gerne weiter: <br />
+                                In Köln habe ich zum Beispiel das erste Django Girls Event veranstaltet: 41 Frauen und Mädchen haben dort ihre erste Web-Anwendung programmiert. <br />
+                                Außerdem gebe ich Workshops für Mädchen ab Klasse 8, in denen wir erste Spiele programmieren.
+                                <br /><br />
+                                Twitter: <a target="_blank" href="https://www.twitter.com/pen1710">@pen1710</a>
+                            </div>
+                        </div>
+                        <div class="workshop-leader" id="timcke">
+                            <div class="workshop-leader-image">
+                                <p><img src="img/timcke.jpg" alt="Timcke" class="image-responsive"></p>
+                            </div>
+                            <div class="workshop-leader-description">
+                                <strong>Marie-Louise Timcke</strong><br /><br />
+                                Ich bin 23 Jahre alt und studiere Datenjournalismus an der TU Dortmund.<br />
+                                Eigentlich war ich nie sonderlich Mathe- oder Computerinteressiert und habe
+                                mehr aus Zufall den Studiengang und das Programmieren für mich entdeckt.
+                                Nach dem ich an der Uni Grundkenntnisse vermittelt bekommen hatte, fing ich
+                                immer öfter auch in meiner Freizeit mit dem coden an und brachte mir dabei
+                                selbst neue Kniffe und Techniken bei. Weil das gemeinsam noch viel
+                                effizienter ist und auch mehr Spaß macht, habe ich letztes Jahr mit einigen
+                                Kommilitonen die Gruppe journocode gegründet.<br /> Bei wöchentlichen Treffen
+                                lernen wir von- und miteinander Programmieren, visualisieren Daten und
+                                entdecken die Geschichten, die sich hinter Zahlen verstecken können.<br /><br />
+                                Mittlerweile sind wir eine bunte Truppe, in der jeder von den Fähigkeiten
+                                und den Ideen der anderen profitiert. <br />Was wir uns selbst erschließen und
+                                lernen geben wir als kostenlose Tutorials auf unserer Website weiter.
+                                Besonders wichtig ist mir dabei, dass auch blutige Anfänger den Spaß am
+                                Programmieren entdecken können. <a href="http://journocode.com">Journocode.com</a>
+                                <br /><br />
+                                Twitter: <a target="_blank" href="https://twitter.com/datentaeterin">@datentaeterin</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="margin-top clear">
+                        <div class="margin-top">
+                            <p>
+                                <strong>Ab 13:00 Uhr besuchen wir mit allen interessierten Teilnehmerinnen den Hackday in Moers:</strong><br />
+                                Alle Teilnehmerinnen sind herzlich eingeladen, dabei zu bleiben. Wir helfen Euch, ein Team zu finden und unterstützen Euch dabei, gemeinsam mit erfahrenen Entwicklern an diesem Wochenende ein Daten-Projekt zu starten.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<script type="text/javascript">_etc();</script>
-<noscript>
-	<p>
-		<a href="http://www.etracker.com"><img style="border:0px;" alt="" src="https://www.etracker.com/nscnt.php?et=DXEvgg" /></a>
-	</p>
-</noscript>
-<!-- etracker CODE NOSCRIPT 3.0 -->
-<noscript>
-	<p>
-		<a href='http://www.etracker.de/app?et=DXEvgg'>
-		<img style='border:0px;' alt='' src='https://www.etracker.de/cnt.php?et=DXEvgg&amp;v=3.0&amp;java=n&amp;et_easy=0&amp;et_pagename=Hackday_Niederrhein;et_areas=Hackday;et_ilevel=0&amp;et_target=,0,,0&amp;et_lpage=0&amp;et_trig=&amp;et_se=0&amp;et_cust=0&amp;et_basket=&amp;et_url=&amp;et_tag=&amp;et_organisation=&amp;et_demographic=' /></a>
-	</p>
-</noscript>
-<!-- etracker CODE NOSCRIPT END-->
+    <section id="hackday">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Was ist ein Hackday?</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Hacking hat spätestens seit den 1980er Jahren mehrere Bedeutungen. Der Ursprung geht auf die
+                        Tätigkeit von Tüftlern zurück, die, wie <a href="http://de.wikipedia.org/wiki/Wau_Holland">Wau Holland</a> einst sagte, versuchen, einen Weg zu finden,
+                        mit einer Kaffeemaschine einen Toast zuzubereiten. Hacker versuchen, die Grenzen des Machbaren zu finden.
+                    </p>
+                    <p>
+                        Auf einem Hackday kommen also verschiedene Hacker zusammen, ganz egal ob altgedienter IT-Hacker
+                        oder Neuling und Alltags-Hacker. Jeder, der kreativ eine Lösung finden möchte, ist eingeladen,
+                        gemeinsam mit allen anderen Teilnehmern eine Lösung für eine Problemstellung zu erarbeiten.
+                        Diese <i>Problemstellung</i> wird von den Teilnehmern selbst mitgebracht und gemeinsam versucht zu lösen.
+                        Ziel ist es dabei, einen gesellschaftlichen Nutzen zu erbringen.
+                    </p>
+                    <p>
+                        Willkommen sind auch Interessierte, die einfach nur mehr über das Thema Open Data erfahren möchten.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- etracker CODE END -->
+    <section id="open-data" class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Open Data?</h2>
+                    <hr class="light">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Bei <i>offenen Daten</i> geht es im Kern um die Bereitstellung von Daten des öffentlichen Sektors, die von Politik und Verwaltung im Interesse der Allgemeinheit mit einer Nutzungslizenz zur weiteren freien Nutzung, zur Weiterverbreitung und zur Weiterverwendung zugänglich gemacht werden. Nutzen können diese Privatpersonen, Institutionen und Unternehmen. Ausgenommen hiervon sind personenbezogene Daten sowie Daten, die anderweitig schutzwürdig sind. Grob gesagt öffnen die Verwaltungen dazu ihre Aktenschränke und Schubladen und stellen der Öffentlichkeit Daten wie etwa Haushaltsdaten, Verkehrsdaten, Geodaten etc. zur Verfügung. Bisher aber stehen diese Daten kaum zur Verfügung, schon gar nicht in mensch- und maschinenlesbarer Art – ein neuer Weg, wenn Verwaltungen Daten jetzt mehr und mehr öffnen. Die Idee dabei ist, dass offene Daten Transparenz und auch Möglichkeiten zur Zusammenarbeit mit der Zivilgesellschaft fördern. Übrigens ist das nicht allein ein kommunaler Weg, die Öffnung findet auch auf Bundes- und Landesebenen statt.
+                    </p>
+                    <p>
+                        Die Stadt Moers und andere Kommunen veröffentlichen Daten auf <a href="http://www.offfenesdatenportal.de" target="_blank">www.offenesdatenportal.de</a>
+                    </p>
+                    <p>
+                        2015 war auch das <a href="https://open.nrw/de/startseite">Open.NRW-Portal des Landes</a> gestartet, in dem viele interessante Daten bereitgestellt werden, mit denen man natürlich auch bei unserem Hackday arbeiten konnte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside id="organizer">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Der Hackday wird veranstaltet von</h2>
+                <hr class="light">
+                <div class="col-3">
+                    <a href="http://moers.de/">
+                        <img src="img/wappen-stadt-moers_rgb.png" alt="Logo der Stadt Moers" target="_blank">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.bertelsmann-stiftung.de/">
+                        <img src="img/logo_bertelsmann.png" alt="Logo der Bertelsmann Stiftung" target="_blank">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <a href="https://www.wegweiser-kommune.de">
+                        <img src="img/logo-wegweiser-kommune.png" alt="Logo Wegweiser Kommune" target="_blank">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section class="bg-dark" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h2 class="section-heading">Haben wir noch Fragen offen gelassen?</h2>
+                    <hr class="primary">
+                    <p>Wenn Du Fragen oder Anregungen haben solltest, dann schreibe uns doch einfach eine <a class="link"
+                            href="mailto:offenedaten@moers.de">E-Mail</a>. :)</p>
+                </div>
+                <div class="text-center">
+                    <a href="http://twitter.com/OpenDataMoers" target="_blank"><i class="fa fa-twitter fa-4x"></i></a>
+                    <a href="https://de-de.facebook.com/stadtmoers" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
+                </div>
+                <div class="text-center impressum">
+                    <a class="link" href="https://www.moers.de/C12571D10045491B/html/24D2E130103FC447C12572C2003FC528?opendocument">Impressum</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
 </body>
+
 </html>
